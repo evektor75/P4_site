@@ -1660,7 +1660,9 @@ mark {
 .text-center {
     text-align: center
 }
-
+.padding {
+    margin:0 0 15px;
+}
 .text-justify {
     text-align: justify
 }
