@@ -781,6 +781,15 @@ h4 {
     color:white!important;
 }
 
+.label-icon{
+    
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333!important;
+
+}
+
 .btn-atomic-tangerine {
     background: #BD5728 ;/*Ancienne couleur #F3976C*/
     color: #FFFFFF!important;
