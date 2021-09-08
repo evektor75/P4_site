@@ -509,6 +509,12 @@ button {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
 }
+.form-group  {
+    color:black!important;
+    font-family: "helvetica";
+    font-weight: 400;
+    margin-bottom:1rem;
+}
 
 .scrollToTop {
     width: 40px;
@@ -646,7 +652,6 @@ h4,
 h5,
 h6,
 p,
-label,
 .btn,
 a {
     font-family: "helvetica";
@@ -660,6 +665,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    
 }
 
 .hero-bloc-text-sub {
@@ -779,6 +785,9 @@ h4 {
 }
 .tc-white-footer{
     color:white!important;
+}
+.tc-white-main{
+    color:#BD5728!important;
 }
 
 .label-icon{
