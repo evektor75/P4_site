@@ -140,6 +140,10 @@ a:hover {
     color: rgba(255, 255, 255, .6);
 }
 
+.icon-md {
+    color:#FFF!important;
+}
+
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
@@ -786,7 +790,7 @@ h4 {
     background-color: #FFFFFF;
 }
 
-li a {
+.col-sm-4 li a {
     color:#FFF!important;
 }
 li {
@@ -878,7 +882,13 @@ li {
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
-
+ul{
+    padding-inline-start:5px;
+    margin-top:5px;
+}
+.col-sm-4 {
+    margin-top:15px;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1005,11 +1015,15 @@ li {
         
     }
     .col-sm-4{
-        color:#1f2021!important;
+        color:#FFF!important;
         font-weight:550;
     }
+    .footer-links{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
     .text-black{
-        color:#1f2021!important;
         font-weight:550;
         font-size:1.2rem;
     }
@@ -1018,7 +1032,7 @@ li {
        
     }
     .icon-md{
-        color:#1f2021!important;
+        color:#FFF!important;
     }
     .dropdown .dropdown a .caret {
         float: none;
