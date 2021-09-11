@@ -26,7 +26,11 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
-
+.bloc-contact{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+}
 .bloc {
     width: 100%;
     clear: both;
@@ -453,6 +457,7 @@ nav .caret {
     margin: 0 0 5px 5px;
 }
 
+
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
@@ -656,7 +661,7 @@ p,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #FFFFFF!important;
+    color: hsla(200,0%,0%,0.7)!important;
 }
 
 .container {
@@ -683,11 +688,15 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
+
+
 .contact p{
     color:#1f2021!important;
     line-height:1.4em;
+    font-style:italic;
+
 
 }
 
@@ -796,17 +805,18 @@ h4 {
 }
 .col-sm-4 p{
     color:black!important;
-    font-size:1.4rem;
     line-height:1.6em;
 }
+.formulaire{
+    width:100%;
+}
+
 .col-sm-6 p{
     color:#000!important;
     line-height:1.4em;
-    font-size:1.4rem;
 }
 
 .col-sm-12 p {
-    font-size:1.2rem;
     padding-top:10px;
 }
 
