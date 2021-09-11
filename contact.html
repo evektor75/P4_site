@@ -34,18 +34,18 @@
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img tabindex="0" src="img/la-chouette-agence.png" alt="atlanta web design logo" height="40" /></a>
+				<div tabindex="0"><a class="navbar-brand" href="index.html"><img  src="img/la-chouette-agence.png" alt="bannière la chouette agence" title="Aller à la page d'Accueil" height="40" /></a></div>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
-					<li>
+					<li tabindex="1" >
 						<a href="index.html">Accueil</a>
 					</li>
-					<li>
-						<a href="page2.html">Contact</a>
+					<li tabindex="2">
+						<a  href="page2.html">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -88,32 +88,34 @@
 		<div class="row">
 			<div class="col-sm-6 formulaire">
 				<form id="form_1" novalidate>
-					<div class="form-group">
+					<div class="form-group" >
 						<label for="name">
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input tabindex="3" id="name" class="form-control" placeholder="Entrez votre Nom et votre Prénom. Ex: Durant Michel" required />
 					</div>
 					<div class="form-group">
 						<label for="email">
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input tabindex="4" id="email" class="form-control" placeholder="Entrez votre adresse email. Ex: durantmichel@chouetteagence.io" type="email" required />
 					</div>
 					<div class="form-group">
 						<label for="input_504">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input tabindex="5" class="form-control" type="email" placeholder="Bouche à oreille, réseaux sociaux, publicité.Racontez-nous."  required id="input_504" />
 					</div>
 					<div class="form-group">
 						<label for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label><textarea tabindex="6" id="message" class="form-control" rows="4" cols="50" placeholder="Entrez votre projet ici" required></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					<div tabindex="7">
+					<button  class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
 					</button>
+					</div>
 				</form>
 			</div>
 		</div>
@@ -136,21 +138,21 @@
 				</p>
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
-						<div class="text-center">
+						<div class="text-center" tabindex="8">
 							<a class="social" href="https://twitter.com/chouette_agence" target="blank"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
-					<div class="col-sm-3">
+					<div class="col-sm-3" tabindex="9">
 						<div class="text-center">
 							<a class="social" href="https://www.facebook.com/LaChouetteAgence/" target="blank"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
-					<div class="col-sm-3">
+					<div class="col-sm-3" tabindex="10">
 						<div class="text-center">
 							<a class="social" href="https://dribbble.com/" target="blank"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
-					<div class="col-sm-3">
+					<div class="col-sm-3" tabindex="11">
 						<div class="text-center">
 							<a class="social" href="https://www.instagram.com/lachouetteagence/" target="blank"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
