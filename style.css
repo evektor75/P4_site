@@ -786,7 +786,12 @@ h4 {
     background-color: #FFFFFF;
 }
 
-
+li a {
+    color:#FFF!important;
+}
+li {
+    list-style-type:none;
+}
 
 .bgc-atomic-tangerine {
     background-color: #BD5728;
