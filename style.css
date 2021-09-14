@@ -968,11 +968,9 @@ ul{
 }
 
 .flex {
-    display:flex;
-    align-items:center;
+    
     width:100%;
-    justify-content:center;
-    flex-wrap:wrap;
+    
     
 }
 .flex p {
@@ -980,6 +978,7 @@ ul{
     color:white!important;
     font-size:14px;
     font-style:italic;
+    white-space:nowrap;
 }
 .flex ul {
     display:flex;
@@ -999,7 +998,7 @@ ul{
 .col-sm-4 ul {
     display:flex;
     flex-wrap:wrap;
-    justify-content:center;
+    justify-content:space-evenly;
 }
 .contact p {
     display:flex;
@@ -1007,9 +1006,14 @@ ul{
 }
 .contact-map {
     margin-top:15px;
-    margin-bottom:15px;
+    margin-bottom:25px;
     width:375px;
     height:150px;
+}
+.wrap {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
 }
 
 @media (max-width: 767px) {
